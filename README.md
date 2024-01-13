@@ -1,2 +1,2 @@
 # TCC
-Repositório para compartilhar a criação do meu trabalho de tcc
+Repositório para compartilhar a criação do meu tcc
