@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+/*Comentário*/
+html,body{
+    height: 100%;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/*Seletor*/ 
+/*Tags*/
+h1{
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    /*background-color: white;*/
+    text-align: center;
+    font-family: Arial, Helvetica;
+    margin: -95px 30px 0 0 ;
+    
+}
+
+p{
+    color: white;
+    /*background-color:  rgb(192, 19, 19);*/
+    text-shadow: 2px 2px 2px #111111;
+    /* margin-left: 30px; */
+    width: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica;
+    /* float: left; */
+    text-align: center;
+    margin: -50px 30px 0 250px ;
+    /* border: solid rgb(255, 255, 255); */
+   
+
+}
+p2{
+    color: white;
+    /*background-color:  rgb(192, 19, 19);*/
+    text-shadow: 2px 2px 2px #111111;
+    /* margin-left: 30px; */
+    width: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica;
+    /* float: left; */
+    text-align: center;
+    margin: -50px 30px 0 0px ;
+
+}
+
+p1{
+    color: white;
+    /*background-color:  rgb(192, 19, 19);*/
+    text-shadow: 1px 1px 1px #111111;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica;
+    float: left;
+    text-align: left;
+
+}
+
+a{
+    border-radius: 20px;
+    color: white;
+    font-size:27px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    
+}
+
+body{
+    background-color: #696969;
+}
+
+header{
+    
+    background-color:#696969;
+    height: 65px;
+    padding: 20px;
+    
+    
+}
+
+/*ID*/
+#logo{
+    float:left;
+    margin-top: -30px;
+    margin-left: 50px;
+    padding: 5px;
+
+}
+
+#principal{
+    clear: both;
+    /*background-image: url(vaicina2.jpg);*/
+    background-size: 100%;
+    min-height: 400px;
+    padding: 60px 0 0 0 ;
+    box-shadow: 10px 20px grey;
+    border-style: solid;
+    border-width: medium;
+    border-color: #000000;
+    max-width: 1000px;
+    margin: -50px 300px 30px 450px ;
+}
+
+
+#menu{
+    
+    margin-top: 25px;
+    margin-right: 100px;
+    padding: 5px;
+    float:right
+}
+
+#menu a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover{
+    background-color: white;
+    color: #696969;
+}
+
+#titulo{
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 5px;
+    float:left;
+    font-size: 30px;
+    
+}
+
+footer{
+    
+    background-color:   white;
+    color: #696969;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin: 160px 0px 0px 0 ;
+    padding: 10px;
+
+}
+
+
+/*Class*/
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -550px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color:white;
+    border: #000000 ;
+    
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+.efeito{
+    /*background-color: rgba(0,0,0,0.5);*/
+    padding: 40px 0 40px 20px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.efeito a{
+
+        color: white;
+        /*background-color:  rgb(192, 19, 19);*/
+        text-shadow: 2px 2px 2px #111111;
+        margin-left: 30px;
+        width: 50%;
+        font-size: 30px;
+        font-family: Arial, Helvetica;
+        float: left;
+        text-align: left;
+        margin: 0px 30px 0 830px ;
+}
